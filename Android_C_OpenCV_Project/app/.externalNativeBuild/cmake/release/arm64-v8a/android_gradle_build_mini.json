@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/home/fjpalfer/AndroidStudioProjects/Android_C_OpenCV_Template/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/fjpalfer/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/fjpalfer/AndroidStudioProjects/Android_C_OpenCV_Template/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/home/fjpalfer/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/fjpalfer/AndroidStudioProjects/Android_C_OpenCV_Template/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "/home/fjpalfer/AndroidStudioProjects/Android_C_OpenCV_Template/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so"
+    },
+    "lib_opencv-Release-arm64-v8a": {
+      "artifactName": "lib_opencv",
+      "abi": "arm64-v8a",
+      "output": "/home/fjpalfer/AndroidStudioProjects/Android_C_OpenCV_Template/app/src/main/jniLibs/arm64-v8a/libopencv_java3.so"
+    }
+  }
+}
